@@ -1,0 +1,50 @@
+.container {
+  width: 1024px;
+  margin: 100px auto 0;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 15rem;
+  border: 1px solid #111;
+  padding: 0.5rem;
+  margin-bottom: 4.25rem;
+}
+
+.card__title {
+  margin-top: 0;
+  font-size: 1.5rem;
+  font-weight: normal;
+}
+
+.card__item {
+  font-size: 0.75rem;
+  margin-bottom: 0.25rem;
+}
+
+.card__text {
+  font-size: 0.75rem;
+  margin-bottom: 0.5rem;
+}
+
+@media (max-width: 1024px) {
+  .container {
+    width: 100%;
+  }
+}
+
+@media (max-width: 868px) {
+  .container {
+    justify-content: space-around;
+  }
+  .card {
+    width: 18rem;
+  }
+}
+@media (max-width: 668px) {
+  .card {
+    width: 23rem;
+  }
+}
