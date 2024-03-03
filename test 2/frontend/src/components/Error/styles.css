@@ -1,0 +1,22 @@
+.error {
+  padding: 1rem 3rem;
+  display: flex;
+  align-items: center;
+  border: 1px solid #f4c6cb;
+  border-radius: 0.25rem;
+  background-color: #f8d7da;
+}
+
+.error__text {
+  color: #711e25;
+  margin-right: 0.5rem;
+}
+
+.error__button {
+  padding: 0.5rem;
+  color: white;
+  background-color: #343a40;
+  border: none;
+  cursor: pointer;
+  border-radius: 0.25rem;
+}

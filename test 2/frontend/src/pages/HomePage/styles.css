@@ -1,0 +1,9 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+}
+.link {
+  margin-bottom: 1rem;
+}
